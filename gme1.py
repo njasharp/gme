@@ -166,7 +166,7 @@ with col1:
         """)
     
 with col2:
-    st.image("legend.PNG", width=320)   
+    st.image("sf.gif", width=320)   
 
 # Display attributes and their interactions
     st.markdown("### Attributes and their Interactions:")
