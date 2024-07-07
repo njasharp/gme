@@ -17,6 +17,7 @@ st.markdown("""
     }
     </style>
     """, unsafe_allow_html=True)
+
 # Initialize session state if not already done
 if 'labels' not in st.session_state:
     st.session_state.labels = ['Speed', 'Power', 'Flight', 'Intelligence', 'Strength', 'Stamina', 'Magic']
