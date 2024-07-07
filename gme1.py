@@ -2,16 +2,24 @@ import streamlit as st
 import random
 import time
 
-# Enable dark mode
-st.markdown("<style>body {background-color: #000000;}</style>", unsafe_allow_html=True)
-
-#st.markdown("""
-   # <style>
-   # /* Hide the Streamlit header and footer */
-   # #MainMenu {visibility: hidden;}
-   # footer {visibility: hidden;}
-   # </style>
-    #""", unsafe_allow_html=True)
+st.markdown("""
+    <style>
+    body {
+        background-color: #000000;
+        color: #ffffff;
+    }
+    .sidebar .sidebar-content {
+        background-color: #000000;
+        color: #ffffff;
+    }
+    h1, h2, h3, h4, h5, h6, p, a, li, .stText, .stMarkdown, .stButton {
+        color: #ffffff;
+    }
+    /* Hide the Streamlit header and footer */
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    </style>
+    """, unsafe_allow_html=True)
 
 
 # Initialize session state if not already done
