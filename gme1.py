@@ -74,7 +74,7 @@ def determine_winner(player_choice, cpu_choice):
             st.session_state.cpu_wins += 1
             return "It's a Tie! Coin toss decides: CPU Wins! 🤖"
 
-st.sidebar.image("ai_logo.PNG", width=160)
+st.sidebar.image("sf.gif", width=160)
 # Display health bars in the sidebar
 st.sidebar.markdown("### Health Bars")
 st.sidebar.write(f"Player Health: {'❤️' * (st.session_state.player_health // 20)}")
