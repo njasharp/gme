@@ -74,7 +74,7 @@ def determine_winner(player_choice, cpu_choice):
             st.session_state.cpu_wins += 1
             return "It's a Tie! Coin toss decides: CPU Wins! 🤖"
 
-st.sidebar.image("ai_logo.PNG", width=180)
+st.sidebar.image("ai_logo.PNG", width=160)
 # Display health bars in the sidebar
 st.sidebar.markdown("### Health Bars")
 st.sidebar.write(f"Player Health: {'❤️' * (st.session_state.player_health // 20)}")
@@ -123,7 +123,7 @@ if st.button("Fight! ⚔️"):
     else:
         st.session_state.used_labels.append(player_choice)
         st.session_state.status = "Fighting... ⚔️"
-        with st.spinner("Battling..."):
+        with st.spinner("Battling...👊"):
             time.sleep(3)  # Wait for 3 seconds
         st.session_state.cpu_choice = cpu_select()
         if st.session_state.cpu_choice is not None:
