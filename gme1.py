@@ -7,16 +7,9 @@ st.markdown("""
     /* Hide the Streamlit header and footer */
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
-    
-    /* Set background color to black */
-    .css-18e3th9 {
-        background-color: black;
-    }
-    .css-1d391kg {
-        background-color: black;
-    }
     </style>
     """, unsafe_allow_html=True)
+
 
 # Initialize session state if not already done
 if 'labels' not in st.session_state:
