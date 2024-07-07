@@ -180,7 +180,7 @@ with col2:
         - **Magic ✨ beats Strength 🔨 and Speed ⚡.**
         - **Otherwise tie and coin toss win/forfeit **
         """)
-    
+    st.image("legend1.PNG", width=320) 
 st.info("Built by dw")
 
 
