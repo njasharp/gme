@@ -3,7 +3,7 @@ import random
 import time
 
 # Enable dark mode
-st.markdown("<style>body {background-color: #212121;}</style>", unsafe_allow_html=True)
+st.markdown("<style>body {background-color: #000000;}</style>", unsafe_allow_html=True)
 
 st.markdown("""
     <style>
