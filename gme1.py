@@ -152,7 +152,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 with col1:
-    st.image("legend1.PNG", width=280)
+    st.image("ai_logo2.gif", width=280)
     # Display summary of the game logic
     st.markdown("### Summary of the Game Logic")
     st.markdown("""
