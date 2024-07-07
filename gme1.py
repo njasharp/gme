@@ -15,10 +15,7 @@ dark_mode_css = """
         background-color: #0e1117;
         color: #ffffff;
     }
-    /* Set the text color */
-    h1, h2, h3, h4, h5, h6, p, a, li, .stText, .stMarkdown, .stButton {
-        color: #ffffff;
-    }
+    
     /* Hide the Streamlit header and footer */
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
