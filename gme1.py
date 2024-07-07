@@ -177,7 +177,7 @@ with col1:
         """)
     
 with col2:
-    st.image("legend.PNG", width=320)   
+    st.image("legend1.PNG", width=320)   
 
 # Display attributes and their interactions
     st.markdown("### Attributes and their Interactions:")
@@ -191,7 +191,7 @@ with col2:
         - **Magic ✨ beats Strength 🔨 and Speed ⚡.**
         - **Otherwise tie and coin toss win/forfeit **
         """)
-    st.image("legend1.PNG", width=320) 
+    st.image("legend.PNG", width=320) 
 st.info("Built by dw")
 
 
