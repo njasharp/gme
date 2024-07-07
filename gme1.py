@@ -2,6 +2,9 @@ import streamlit as st
 import random
 import time
 
+# Enable dark mode
+st.markdown("<style>body {background-color: #212121;}</style>", unsafe_allow_html=True)
+
 st.markdown("""
     <style>
     /* Hide the Streamlit header and footer */
