@@ -5,13 +5,13 @@ import time
 # Enable dark mode
 st.markdown("<style>body {background-color: #000000;}</style>", unsafe_allow_html=True)
 
-st.markdown("""
-    <style>
-    /* Hide the Streamlit header and footer */
-    #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-    </style>
-    """, unsafe_allow_html=True)
+#st.markdown("""
+   # <style>
+   # /* Hide the Streamlit header and footer */
+   # #MainMenu {visibility: hidden;}
+   # footer {visibility: hidden;}
+   # </style>
+    #""", unsafe_allow_html=True)
 
 
 # Initialize session state if not already done
