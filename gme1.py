@@ -2,28 +2,13 @@ import streamlit as st
 import random
 import time
 
-# Custom CSS for dark mode
-dark_mode_css = """
+st.markdown("""
     <style>
-    /* Set the background color to dark */
-    .main {
-        background-color: #0e1117;
-        color: #ffffff;
-    }
-    /* Set the sidebar color to dark */
-    .sidebar .sidebar-content {
-        background-color: #0e1117;
-        color: #ffffff;
-    }
-    
     /* Hide the Streamlit header and footer */
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     </style>
-"""
-
-# Apply the dark mode CSS
-st.markdown(dark_mode_css, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
 
 
 # Initialize session state if not already done
