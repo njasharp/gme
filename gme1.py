@@ -175,7 +175,7 @@ with col1:
         - **Game ends after 5 rounds or when no attributes are left.**
         - **Final result is displayed, and the game can be reset.**
         """)
-    
+    st.image("ai_logo2a.gif", width=280)
 with col2:
     st.image("legend1.PNG", width=320)   
 
@@ -193,10 +193,6 @@ with col2:
         """)
     st.image("legend.PNG", width=320) 
 st.info("Built by dw")
-
-
-
-
 
 
 
