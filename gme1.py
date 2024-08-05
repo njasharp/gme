@@ -146,7 +146,7 @@ if st.button("Fight! ⚔️"):
             st.session_state.stats.pop(index)
             st.session_state.status = "Fight End!"
             
-        st.experimental_rerun()
+        st.rerun()
 
 # Display fight sequence and status
 st.sidebar.markdown("### Status")
